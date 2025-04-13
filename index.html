@@ -1,0 +1,147 @@
+<img src="https://docs.github.com/assets/cb-13448/images/help/repository/create-file-button.png" alt="Create file GitHub" width="500"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lushvia | Luxury Skincare Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fdf6f0;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1585916561407-1bc9d0c6ef3e');
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    .section {
+      padding: 3rem 2rem;
+    }
+    .section h3 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      font-family: 'Playfair Display', serif;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+    .product-card {
+      background-color: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 1rem;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product-card h4 {
+      margin: 1rem 0 0.5rem;
+    }
+    .product-card p {
+      color: #555;
+      margin-bottom: 1rem;
+    }
+    .product-card a {
+      text-decoration: none;
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      display: inline-block;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lushvia</h1>
+    <nav>
+      <a href="#brands">Brands</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Luxury Skincare. Handpicked for Glow Getters.</h2>
+  </div>
+
+  <section class="section" id="shop">
+    <h3>Shop All Brands</h3>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/61AqN8H0mbL._SL1500_.jpg" alt="Lakmé Serum">
+        <h4>Lakmé Vitamin C Serum</h4>
+        <p>Brightens skin and reduces dark spots</p>
+        <a href="https://wa.me/yourwhatsapplink">Order Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/71UxzNAnYyL._SL1500_.jpg" alt="Dot & Key Moisturizer">
+        <h4>Dot & Key Moisturizer</h4>
+        <p>Hydrating gel with probiotics</p>
+        <a href="https://wa.me/yourwhatsapplink">Order Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/71XZPV5A4LL._SL1500_.jpg" alt="Hyphen Face Wash">
+        <h4>Hyphen Brightening Face Wash</h4>
+        <p>Gentle cleanser for daily glow</p>
+        <a href="https://wa.me/yourwhatsapplink">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>© 2025 Lushvia. All rights reserved. | Contact: hello@lushvia.in</p>
+  </footer>
+</body>
+</html>
